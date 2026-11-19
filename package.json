@@ -1,0 +1,14 @@
+{
+  "name": "rex-validate-agent-quickstart",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Public discovery and safe agent setup examples for Rex Validate paid APIs.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node quote-check.mjs"
+  }
+}
